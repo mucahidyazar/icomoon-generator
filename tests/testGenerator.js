@@ -1,7 +1,7 @@
 const pipeline = require('../dist/esm');
 
 pipeline({
-  // outputDir: 'icon_generator/icons',
+  // outputDir: 'icon_generator/icons'
   outputDir: 'tests/icons',
   svgDir: 'tests/svg',
   forceOverride: true,
